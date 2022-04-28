@@ -1,0 +1,16 @@
+[{
+  "_id": 1,
+  "NumSerie": "1234",
+  "Nombre": "Edu",
+  "Facultad": 1
+},{
+  "_id": 2,
+  "NumSerie": "4125",
+  "Nombre": "Arnau",
+  "Facultad": 2
+},{
+  "_id": 3,
+  "NumSerie": "6359",
+  "Nombre": "Dani",
+  "Facultad": 3
+}]

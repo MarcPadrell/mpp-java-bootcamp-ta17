@@ -1,0 +1,9 @@
+use ex4_peliculas_salas
+
+db.createCollection("Peliculas")
+
+db.Peliculas.insertMany([{_id:1, "Nombre": 'Thor', "CalificacionEdad":4},{_id:2, "Nombre": 'Spider-man', "CalificacionEdad":10},{_id:3, "Nombre": 'Piratas', "CalificacionEdad":15}])
+
+db.createCollection("Salas")
+
+db.Salas.insertMany([{_id:1, "Nombre": 'Ultima', "Pelicula":1},{_id:2, "Nombre": 'Secundaria', "Pelicula":2},{_id:3, "Nombre": 'Principal', "Pelicula":3}])

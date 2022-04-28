@@ -1,0 +1,19 @@
+[{
+  "_id": 1,
+  "DNI": "12345678-A",
+  "Nombre": "Marc",
+  "Apellidos": "Padrell",
+  "Departamento": 1
+},{
+  "_id": 2,
+  "DNI": "74859676-A",
+  "Nombre": "Borja",
+  "Apellidos": "Sentis",
+  "Departamento": 2
+},{
+  "_id": 3,
+  "DNI": "54632589-X",
+  "Nombre": "Edu",
+  "Apellidos": "Palacios",
+  "Departamento": 3
+}]

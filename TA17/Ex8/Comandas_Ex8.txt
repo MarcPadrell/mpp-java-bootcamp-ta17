@@ -1,0 +1,18 @@
+use ex8_los_investigadores
+
+db.createCollection("Facultad")
+
+db.Facultad.insertMany([{_id:1, "Nombre": 'Quimica'},{_id:2, "Nombre": "Ingenieria"},{_id:3, "Nombre": "Infermeria"}])
+
+db.createCollection("Investigadores")
+
+db.Investigadores.insertMany([{_id:1, "DNI": '12345678-A', "NomApels":'Edu Palacios', "Facultad": 1},{_id:2, "DNI": '41254785-T', "NomApels":'Arnau Gomez', "Facultad":2},{_id:3, "DNI": '63598647-R', "NomApels":'Dani Parera', "Facultad": 3}])
+
+db.createCollection("Equipos")
+
+db.Equipos.insertMany([{_id:1, "NumSerie": '1234', "Nombre":'Edu', "Facultad": 1},{_id:2, "NumSerie": '4125', "Nombre":'Arnau', "Facultad":2},{_id:3, "NumSerie": '6359', "Nombre":'Dani', "Facultad": 3}])
+
+db.createCollection("Reserva")
+
+db.Reserva.insertMany([{_id:1, "DNI": '12345678-A', "NumSerie":'1234', "Comienzo": "FechaInicio", "Fin": "FechaFin"},{_id:2, "DNI": '41254785-T', "NumSerie":'4125', "Comienzo":"FechaInicio", "Fin":"FechaFin"},{_id:3, "DNI": '63598647-R', "NumSerie":'6359', "Comienzo": "FechaInicio", "Fin":"FechaFin"}])
+

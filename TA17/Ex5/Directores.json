@@ -1,0 +1,19 @@
+[{
+  "_id": 1,
+  "DNI": "12345678-A",
+  "NomApels": "Edu Palacios",
+  "DNIJefe": "58896472-W",
+  "Despacho": 1
+},{
+  "_id": 2,
+  "DNI": "41254785-T",
+  "NomApels": "Arnau Gomez",
+  "DNIJefe": "25364125-E",
+  "Despacho": 2
+},{
+  "_id": 3,
+  "DNI": "63598647-R",
+  "NomApels": "Dani Parera",
+  "DNIJefe": "56842359-T",
+  "Despacho": 3
+}]

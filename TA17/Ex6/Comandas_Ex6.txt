@@ -1,0 +1,13 @@
+use ex6_piezas_proveedores
+
+db.createCollection("Piezas")
+
+db.Piezas.insertMany([{_id:1, "Nombre": 'Mesa'},{_id:2, "Nombre": 'Silla'},{_id:3, "Nombre": 'Lampara'}])
+
+db.createCollection("Suministra")
+
+db.Suministra.insertMany([{_id:1,"CodigoPieza":1, "IdProveedor": 1, "Precio": 10},{_id:2, "CodigoPieza": 2, "IdProveedor": 2, "Precio": 35},{_id:3, "CodigoPieza": 3, "IdProveedor": 3, "Precio": 50}])
+
+db.createCollection("Proveedores")
+
+db.Proveedores.insertMany([{_id:1, "Nombre": 'Sony'},{_id:2, "Nombre": 'Asus'},{_id:3, "Nombre": 'LG'}])

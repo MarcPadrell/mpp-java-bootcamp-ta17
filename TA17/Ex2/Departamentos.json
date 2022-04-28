@@ -1,0 +1,13 @@
+[{
+  "_id": 1,
+  "Nombre": "IT",
+  "Presupuesto": 50000
+},{
+  "_id": 2,
+  "Nombre": "RRHH",
+  "Presupuesto": 7000
+},{
+  "_id": 3,
+  "Nombre": "Quality",
+  "Presupuesto": 2000
+}]

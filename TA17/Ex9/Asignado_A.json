@@ -1,0 +1,13 @@
+[{
+  "_id": 1,
+  "Cientifico": "12345678-A",
+  "Proyecto": 1
+},{
+  "_id": 2,
+  "DNI": "41254785-T",
+  "Proyecto": 2
+},{
+  "_id": 3,
+  "DNI": "63598647-R",
+  "Proyecto": 3
+}]

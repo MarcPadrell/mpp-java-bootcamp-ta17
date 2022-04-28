@@ -1,0 +1,18 @@
+use ex2_empleados
+
+db.createCollection("Empleados")
+
+db.Empleados.insertOne({_id:1, "DNI": '12345678-A', "Nombre": 'Marc', "Apellidos": 'Padrell', "Departamento": 1})
+
+db.Empleados.insertOne({_id:2, "DNI": '74859676-A', "Nombre": 'Borja', "Apellidos": 'Sentis', "Departamento": 2})
+
+db.Empleados.insertOne({_id:3, "DNI": '54632589-X', "Nombre": 'Edu', "Apellidos": 'Palacios', "Departamento": 3})
+
+db.createCollection("Departamentos")
+
+db.Departamentos.insertOne({_id:1, "Nombre": 'IT', "Presupuesto": 50000})
+
+db.Departamentos.insertOne({_id:2, "Nombre": 'RRHH', "Presupuesto": 7000})
+
+db.Departamentos.insertOne({_id:3, "Nombre": 'Quality', "Presupuesto": 2000})
+

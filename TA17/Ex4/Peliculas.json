@@ -1,0 +1,13 @@
+[{
+  "_id": 1,
+  "Nombre": "Thor",
+  "CalificacionEdad": 4
+},{
+  "_id": 2,
+  "Nombre": "Spider-man",
+  "CalificacionEdad": 10
+},{
+  "_id": 3,
+  "Nombre": "Piratas",
+  "CalificacionEdad": 15
+}]

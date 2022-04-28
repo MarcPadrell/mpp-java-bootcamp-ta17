@@ -1,0 +1,18 @@
+use ex7_los_grandes_almacenes
+
+db.createCollection("Productos")
+
+db.Productos.insertMany([{_id:1, "Nombre": 'Calculadora', "Precio":10},{_id:2, "Nombre": 'Martillo', "Precio":65},{_id:3, "Nombre": 'Reloj', "Precio":300}])
+
+db.createCollection("Cajeros")
+
+db.Cajeros.insertMany([{_id:1, "NomApels": 'Cajero Sur'},{_id:2, "NomApels": 'Cajero Norte'},{_id:3, "NomApels": 'Cajeros Este'}])
+
+db.createCollection("Maquinas_Registradoras")
+
+db.Maquinas_Registradoras.insertMany([{_id:1, "Piso": 5},{_id:2, "Piso": 1},{_id:3, "Piso": 2}])
+
+db.createCollection("Venta")
+
+db.Venta.insertMany([{_id:1,"Cajero":1, "Maquina": 1, "Producto": 1},{_id:2, "Cajero": 2, "Maquina": 2, "Producto": 2},{_id:3, "Cajero": 3, "Maquina": 3, "Producto": 3}])
+

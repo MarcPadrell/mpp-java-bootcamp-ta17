@@ -1,0 +1,17 @@
+use ex1_tenda_informatica
+
+db.createCollection("fabricantes")
+
+db.fabricantes.insertOne({_id:1, "Nombre": 'Sony'})
+
+db.fabricantes.insertOne({_id:2, "Nombre": 'Asus'})
+
+db.fabricantes.insertOne({_id:3, "Nombre": 'Acer'})
+
+db.createCollection("Articulos")
+
+db.Articulos.insertOne({_id:1,"Nombre": 'Raton', "Precio": 50, "Fabricante": 'Sony'})
+
+db.Articulos.insertOne({_id:2, "Nombre": 'PC', "Precio": 500, "Fabricante": 'Asus'})
+
+db.Articulos.insertOne({_id:3, "Nombre": 'TV', "Precio": 95, "Fabricante": 'Acer'})

@@ -1,0 +1,13 @@
+[{
+  "_id": 1,
+  "Nombre": "Ultima",
+  "Pelicula": 1
+},{
+  "_id": 2,
+  "Nombre": "Secundaria",
+  "Pelicula": 2
+},{
+  "_id": 3,
+  "Nombre": "Principal",
+  "Pelicula": 3
+}]

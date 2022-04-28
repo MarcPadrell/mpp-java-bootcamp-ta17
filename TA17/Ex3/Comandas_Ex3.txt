@@ -1,0 +1,17 @@
+use ex3_los_almacenes
+
+db.createCollection("Almacenes")
+
+db.Almacenes.insertOne({_id:1, "Lugar": 'Barcelona', "Capacidad": 50})
+
+db.Almacenes.insertOne({_id:2, "Lugar": 'Taragona', "Capacidad": 30})
+
+db.Almacenes.insertOne({_id:3, "Lugar": 'Bilbao', "Capacidad": 89})
+
+db.createCollection("Cajas")
+
+db.Cajas.insertOne({_id:1, "Contenido": 'Tijeras', "Valor": 3000, "Almacen": 1})
+
+db.Cajas.insertOne({_id:2, "Contenido": 'Flores', "Valor": 5600, "Almacen": 2})
+
+db.Cajas.insertOne({_id:3, "Contenido": 'Papeles', "Valor": 545, "Almacen": 3})
